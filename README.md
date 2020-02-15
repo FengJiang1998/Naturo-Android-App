@@ -10,4 +10,4 @@ This is an android game app of Naruto.
  * @final FinalProject1 (Naruto)
  * @email fjiang@coastal.edu & rjcroes@coastal.edu
  */
-For using this file, please open the Aandroid studio and drag the main file to your project. 
+For using this file, please open the Android studio and drag the main file to your project. 
