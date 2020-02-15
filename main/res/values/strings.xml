@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Naruto</string>
+    <string name="buttonText">Select</string>
+    <string name="txtname">Name</string>
+    <string name="txtcountry">Country</string>
+    <string name="txtdescription">Description</string>
+    <string name="txthealth">HP</string>
+    <string name="txtattack">ATK</string>
+    <string name="txtdefense">DEF</string>
+    <string name="txtspeed">SPD</string>
+    <string name="narutoName">Natuto</string>
+    <string name="narutoDescription">Naruto Uzumaki is the annoying, pervy brat in the Naruto series, and he is the main character. </string>
+    <string name="sasukeName">Sasuke Uchiha</string>
+    <string name="sasukeDescription">Sasuke Uchiha (うちは サスケ Uchiha Sasuke) is Narutos rival. He was designed by Kishimoto as the "cool genius" since he felt this was an integral part of an ideal rivalry.</string>
+    <string name="sakuraName">Sakura Haruno</string>
+    <string name="sakuraDescription">Sakura Haruno (春野 サクラ Haruno Sakura) is a member of Team 7. While creating the character, Kishimoto has admitted that he had little perception of what an ideal girl should be like.</string>
+    <string name="kakashiName">Kakashi Hatake</string>
+    <string name="kakashiDescription">Kakashi Hatake is the easygoing, smart leader of team 7, consisting of Naruto Uzumaki, Sasuke Uchiha, and Sakura Haruno.</string>
+    <string name="hinataName">Hinata Hyuga</string>
+    <string name="hinataDescription">Hinata Hyuga (日向 ヒナタ Hyūga Hinata) is a member of Team 8 who suffers from a lack of self-confidence.</string>
+    <string name="konohagakure">Konohagakure</string>
+    <string name="on_of">ON/OF</string>
+    <string name="enable_discoverable">Enable Discoverable</string>
+    <string name="start_connection">Start Connection</string>
+    <string name="send">SEND</string>
+    <string name="messages_come_here">Messages come here.</string>
+    <string name="textview">TextView</string>
+    <string name="discover">Discover</string>
+    <string name="enter_text_here">Enter Text Here</string>
+    <string name="title_activity_bluetooth_connection_">BluetoothConnection_Activity</string>
+    <string name="title_activity_battle_">Battle_Activity</string>
+    <string name="title_activity_win_">Win_Activity</string>
+    <string name="title_activity_lost_">Lost_Activity</string>
+    <string name="restart">Restart</string>
+    <string name="bluetooth_connection_finished">Bluetooth Connection Finished</string>
+    <string name="todo">TODO</string>
+</resources>

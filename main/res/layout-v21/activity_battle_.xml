@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Battle_Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="3">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="2"
+            android:weightSum="2"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:weightSum="8" >
+
+                <ImageView
+                    android:id="@+id/my_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="5"
+                    android:layout_gravity="center"
+                    android:contentDescription="TODO" />
+
+                <TextView
+                    android:id="@+id/myName"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+                <TextView
+                    android:id="@+id/myHealthView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:weightSum="8">
+                <ImageView
+                    android:id="@+id/enemy_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="5"
+                    android:contentDescription="TODO" />
+
+                <TextView
+                    android:id="@+id/enemyName"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+                <TextView
+                    android:id="@+id/enemyHealthView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:rowCount="2"
+            android:columnCount="2">
+            <Button
+                android:text="Full Attack"
+                android:id="@+id/btnAttack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1" />
+            <Button
+                android:text="80% Attack"
+                android:id="@+id/btnAttack2"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:textSize="14dip"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"/>
+
+            <Button
+                android:text="50% Attack"
+                android:id="@+id/btnAttack3"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:textSize="14dip"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"/>
+            <Button
+                android:text="25% Attack"
+                android:id="@+id/btnAttack4"
+                android:layout_row="1"
+                android:layout_column="1"
+                android:textSize="14dip"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"/>
+        </GridLayout>
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>
